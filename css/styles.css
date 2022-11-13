@@ -1,0 +1,104 @@
+body .container {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 25%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body .calc {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+body .calc .number {
+  width: 120px;
+  height: 15px;
+  border: solid 2px black;
+  border-radius: 5px;
+}
+
+body .calc .number:active {
+  background-color: lightgreen;
+}
+
+body .calc .number:hover {
+  background-color: lightgreen;
+  cursor: pointer;
+}
+
+body .calc select {
+  width: 50px;
+  height: 21px;
+  border: solid 2px black;
+  border-radius: 5px;
+}
+
+body .calc button {
+  width: 25px;
+  height: 21px;
+  background: none;
+  border: solid 2px black;
+  border-radius: 5px;
+}
+
+body .calc select:hover,
+body .calc button:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+body .calc .result {
+  width: 50px;
+  height: 17px;
+  border: solid 2px black;
+  border-radius: 5px;
+}
+
+body .results {
+  width: 435px;
+  border: solid 2px black;
+  border-radius: 5px;
+}
+
+body .results h1 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px 0 5px 15px;
+}
+
+body .results div {
+  margin: 5px 0 2px 15px;
+  font-size: 15px;
+}
+
+body .results div:hover {
+  color: lightskyblue;
+}
+
+body .row2 {
+  display: flex;
+}
+
+body .row2 button {
+  width: 50px;
+  max-height: 37px;
+  margin-left: 15px;
+  border: solid 2px black;
+  border-radius: 5px;
+  font-weight: 600;
+  background: none;
+}
+
+body .row2 button:hover {
+  background-color: lightcoral;
+  cursor: pointer;
+}

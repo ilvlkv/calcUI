@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calc">
+        <input type="text" class="number" value="" id="number1" />
+        <select name="operator" id="operator_selector">
+          <option value=""></option>
+          <option value="1">+</option>
+          <option value="2">-</option>
+          <option value="3">*</option>
+          <option value="4">/</option>
+        </select>
+        <input type="text" class="number" value="" id="number2" />
+        <button id="button">=</button>
+        <input type="text" class="number" value="" id="result" />
+      </div>
+      <div class="row2">
+        <div class="results" id="results">
+          <h1>Предыдущие результаты:</h1>
+        </div>
+        <button id="clearButton">Reset</button>
+      </div>
+    </div>
+    <script src="/scripts/main.js"></script>
+  </body>
+</html>
